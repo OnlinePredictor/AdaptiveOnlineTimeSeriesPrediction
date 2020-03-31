@@ -52,7 +52,7 @@ def settingSE1():
 	exp.add_method('HedgeAR', {'p': 16, 'c' : -1}, name = 'Hedge-FTRL')
 	exp.add_method('HedgeARSE', {'p': 16, 'c' : -1}, name = 'Hedge-ONS')
 
-	print("Setting 1 SE finished at " + str(datetime.datetime.now()))
+	print("Setting 1 SE finished at " + str(datetime.datetime.now()), flush=True)
 
 	exp.scoreboard(n_digits = 10)
 
@@ -78,7 +78,7 @@ def settingSE2():
 	exp.add_method('HedgeAR', {'p': 16, 'c' : -1}, name = 'Hedge-FTRL')
 	exp.add_method('HedgeARSE', {'p': 16, 'c' : -1}, name = 'Hedge-ONS')
 
-	print("Setting 2 SE finished at " + str(datetime.datetime.now()))
+	print("Setting 2 SE finished at " + str(datetime.datetime.now()), flush=True)
 
 	exp.scoreboard(n_digits = 10)
 
@@ -104,7 +104,7 @@ def settingSE3():
 	exp.add_method('HedgeAR', {'p': 16, 'c' : -1}, name = 'Hedge-FTRL')
 	exp.add_method('HedgeARSE', {'p': 16, 'c' : -1}, name = 'Hedge-ONS')
 
-	print("Setting 3 SE finished at " + str(datetime.datetime.now()))
+	print("Setting 3 SE finished at " + str(datetime.datetime.now()), flush=True)
 
 	exp.scoreboard(n_digits = 10)
 
@@ -137,7 +137,7 @@ def settingSE4():
 	exp.add_method('HedgeAR', {'p': 16, 'c' : -1}, name = 'Hedge-FTRL')
 	exp.add_method('HedgeARSE', {'p': 16, 'c' : -1}, name = 'Hedge-ONS')
 
-	print("Setting 4 SE finished at " + str(datetime.datetime.now()))
+	print("Setting 4 SE finished at " + str(datetime.datetime.now()), flush=True)
 
 	exp.scoreboard(n_digits = 10)
 
@@ -170,7 +170,7 @@ def settingSE5():
 	exp.add_method('HedgeAR', {'p': 16, 'c' : -1}, name = 'Hedge-FTRL')
 	exp.add_method('HedgeARSE', {'p': 16, 'c' : -1}, name = 'Hedge-ONS')
 
-	print("Setting 5 SE finished at " + str(datetime.datetime.now()))
+	print("Setting 5 SE finished at " + str(datetime.datetime.now()), flush=True)
 
 	exp.scoreboard(n_digits = 10)
 
@@ -199,7 +199,7 @@ def settingSE6():
 	exp.add_method('HedgeAR', {'p': 16, 'c' : -1}, name = 'Hedge-FTRL')
 	exp.add_method('HedgeARSE', {'p': 16, 'c' : -1}, name = 'Hedge-ONS')
 
-	print("Setting 6 SE finished at " + str(datetime.datetime.now()))
+	print("Setting 6 SE finished at " + str(datetime.datetime.now()), flush=True)
 
 	exp.scoreboard(n_digits = 10)
 
@@ -227,7 +227,7 @@ def settingSE7():
 	exp.add_method('HedgeAR', {'p': 16, 'c' : -1}, name = 'Hedge-FTRL')
 	exp.add_method('HedgeARSE', {'p': 16, 'c' : -1}, name = 'Hedge-ONS')
 
-	print("Setting 7 SE finished at " + str(datetime.datetime.now()))
+	print("Setting 7 SE finished at " + str(datetime.datetime.now()), flush=True)
 
 	exp.scoreboard(n_digits = 10)
 
@@ -309,7 +309,7 @@ def settingAE2():
 
 	exp.add_method('HedgeAR', {'p': 16, 'c' : -1, 'loss' : ae}, name = 'Hedge-FTRL')
 
-	print("Setting ae 2 finished at " + str(datetime.datetime.now()))
+	print("Setting ae 2 finished at " + str(datetime.datetime.now()), flush=True)
 
 	exp.scoreboard(n_digits = 10, metric = 'ae')
 
@@ -333,7 +333,7 @@ def settingAE3():
 
 	exp.add_method('HedgeAR', {'p': 16, 'c' : -1, 'loss' : ae}, name = 'Hedge-FTRL')
 
-	print("Setting ae 3 finished at " + str(datetime.datetime.now()))
+	print("Setting ae 3 finished at " + str(datetime.datetime.now()), flush=True)
 
 	exp.scoreboard(n_digits = 10, metric = 'ae')
 
@@ -363,7 +363,7 @@ def settingAE4():
 	
 	exp.add_method('HedgeAR', {'p': 16, 'c' : -1, 'loss' : ae}, name = 'Hedge-FTRL')
 
-	print("Setting ae 4 finished at " + str(datetime.datetime.now()))
+	print("Setting ae 4 finished at " + str(datetime.datetime.now()), flush=True)
 
 	exp.scoreboard(n_digits = 10, metric = 'ae')
 
@@ -418,7 +418,7 @@ def settingAE6():
 	
 	exp.add_method('HedgeAR', {'p': 16, 'c' : -1, 'loss' : ae}, name = 'Hedge-FTRL')
 
-	print("Setting ae 6 finished at " + str(datetime.datetime.now()))
+	print("Setting ae 6 finished at " + str(datetime.datetime.now()), flush=True)
 
 	exp.scoreboard(n_digits = 10, metric = 'ae')
 
@@ -444,7 +444,7 @@ def settingAE7():
 
 	exp.add_method('HedgeAR', {'p': 16, 'c' : -1, 'loss' : ae}, name = 'Hedge-FTRL')
 
-	print("Setting ae 7 finished at " + str(datetime.datetime.now()))
+	print("Setting ae 7 finished at " + str(datetime.datetime.now()), flush=True)
 
 	exp.scoreboard(n_digits = 10, metric = 'ae')
 
